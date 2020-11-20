@@ -29,148 +29,92 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EntryForm));
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.launcherButton = new MaterialSkin.Controls.MaterialRaisedButton();
             this.initButton = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.progressOfLaunch = new System.Windows.Forms.ProgressBar();
-            this.pcClientSelector = new MaterialSkin.Controls.MaterialRadioButton();
-            this.iosSelector = new MaterialSkin.Controls.MaterialRadioButton();
+            this.launcherButton = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(4, 4);
-            this.materialLabel3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(199, 37);
-            this.materialLabel3.TabIndex = 7;
-            this.materialLabel3.Text = "Liquid Source";
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(28, 65);
-            this.materialLabel1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(439, 37);
-            this.materialLabel1.TabIndex = 8;
-            this.materialLabel1.Text = "CSGO Disconnected/Not Found";
-            // 
-            // launcherButton
-            // 
-            this.launcherButton.Depth = 0;
-            this.launcherButton.Location = new System.Drawing.Point(110, 375);
-            this.launcherButton.Margin = new System.Windows.Forms.Padding(6);
-            this.launcherButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.launcherButton.Name = "launcherButton";
-            this.launcherButton.Primary = true;
-            this.launcherButton.Size = new System.Drawing.Size(280, 69);
-            this.launcherButton.TabIndex = 9;
-            this.launcherButton.Text = "Launch The Game";
-            this.launcherButton.UseVisualStyleBackColor = true;
-            this.launcherButton.Click += new System.EventHandler(this.launcherButton_Click);
             // 
             // initButton
             // 
+            this.initButton.BackColor = System.Drawing.SystemColors.HotTrack;
             this.initButton.Depth = 0;
-            this.initButton.Location = new System.Drawing.Point(36, 502);
-            this.initButton.Margin = new System.Windows.Forms.Padding(6);
+            this.initButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.initButton.Location = new System.Drawing.Point(519, 367);
             this.initButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.initButton.Name = "initButton";
             this.initButton.Primary = true;
-            this.initButton.Size = new System.Drawing.Size(444, 69);
+            this.initButton.Size = new System.Drawing.Size(422, 92);
             this.initButton.TabIndex = 10;
-            this.initButton.Text = "Connect to launched game";
-            this.initButton.UseVisualStyleBackColor = true;
+            this.initButton.Text = "Connect to the Client";
+            this.initButton.UseVisualStyleBackColor = false;
             this.initButton.Click += new System.EventHandler(this.initButton_Click);
             // 
-            // progressOfLaunch
+            // launcherButton
             // 
-            this.progressOfLaunch.Location = new System.Drawing.Point(24, 627);
-            this.progressOfLaunch.Margin = new System.Windows.Forms.Padding(6);
-            this.progressOfLaunch.Name = "progressOfLaunch";
-            this.progressOfLaunch.Size = new System.Drawing.Size(456, 21);
-            this.progressOfLaunch.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.progressOfLaunch.TabIndex = 11;
+            this.launcherButton.BackColor = System.Drawing.Color.Peru;
+            this.launcherButton.Depth = 0;
+            this.launcherButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.125F);
+            this.launcherButton.ForeColor = System.Drawing.Color.Black;
+            this.launcherButton.Location = new System.Drawing.Point(16, 367);
+            this.launcherButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.launcherButton.Name = "launcherButton";
+            this.launcherButton.Primary = true;
+            this.launcherButton.Size = new System.Drawing.Size(411, 92);
+            this.launcherButton.TabIndex = 9;
+            this.launcherButton.Text = "Launch The Game";
+            this.launcherButton.UseVisualStyleBackColor = false;
+            this.launcherButton.Click += new System.EventHandler(this.launcherButton_Click);
             // 
-            // pcClientSelector
+            // panel1
             // 
-            this.pcClientSelector.AutoSize = true;
-            this.pcClientSelector.Checked = true;
-            this.pcClientSelector.Depth = 0;
-            this.pcClientSelector.Font = new System.Drawing.Font("Roboto", 10F);
-            this.pcClientSelector.Location = new System.Drawing.Point(122, 163);
-            this.pcClientSelector.Margin = new System.Windows.Forms.Padding(0);
-            this.pcClientSelector.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.pcClientSelector.MouseState = MaterialSkin.MouseState.HOVER;
-            this.pcClientSelector.Name = "pcClientSelector";
-            this.pcClientSelector.Ripple = true;
-            this.pcClientSelector.Size = new System.Drawing.Size(232, 30);
-            this.pcClientSelector.TabIndex = 12;
-            this.pcClientSelector.TabStop = true;
-            this.pcClientSelector.Text = "Native PC Client";
-            this.pcClientSelector.UseVisualStyleBackColor = true;
+            this.panel1.BackgroundImage = global::AqHaxCSGO.Properties.Resources.entryLayer;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.launcherButton);
+            this.panel1.Controls.Add(this.initButton);
+            this.panel1.Location = new System.Drawing.Point(-18, 18);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(944, 549);
+            this.panel1.TabIndex = 12;
             // 
-            // iosSelector
+            // label1
             // 
-            this.iosSelector.AutoSize = true;
-            this.iosSelector.Depth = 0;
-            this.iosSelector.Font = new System.Drawing.Font("Roboto", 10F);
-            this.iosSelector.Location = new System.Drawing.Point(88, 244);
-            this.iosSelector.Margin = new System.Windows.Forms.Padding(0);
-            this.iosSelector.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.iosSelector.MouseState = MaterialSkin.MouseState.HOVER;
-            this.iosSelector.Name = "iosSelector";
-            this.iosSelector.Ripple = true;
-            this.iosSelector.Size = new System.Drawing.Size(302, 30);
-            this.iosSelector.TabIndex = 13;
-            this.iosSelector.Text = "IOS Connection Client";
-            this.iosSelector.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
+            this.label1.Location = new System.Drawing.Point(282, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(422, 85);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Liquid Client";
             // 
             // EntryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 671);
-            this.Controls.Add(this.iosSelector);
-            this.Controls.Add(this.pcClientSelector);
-            this.Controls.Add(this.progressOfLaunch);
-            this.Controls.Add(this.initButton);
-            this.Controls.Add(this.launcherButton);
-            this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.materialLabel3);
+            this.BackgroundImage = global::AqHaxCSGO.Properties.Resources.entryLayer;
+            this.ClientSize = new System.Drawing.Size(916, 565);
+            this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "EntryForm";
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.EntryForm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialRaisedButton launcherButton;
         private MaterialSkin.Controls.MaterialRaisedButton initButton;
-        private System.Windows.Forms.ProgressBar progressOfLaunch;
-        private MaterialSkin.Controls.MaterialRadioButton pcClientSelector;
-        private MaterialSkin.Controls.MaterialRadioButton iosSelector;
+        private MaterialSkin.Controls.MaterialRaisedButton launcherButton;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
     }
 }

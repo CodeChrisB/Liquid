@@ -50,7 +50,6 @@ namespace Liquid
             {
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.AddFormToManage(this);
-                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
                 materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green900, Primary.Green600, Accent.Green200, TextShade.WHITE);
             }
 
@@ -82,7 +81,6 @@ namespace Liquid
                         this.Close();
                         var materialSkinManager = MaterialSkinManager.Instance;
                         materialSkinManager.AddFormToManage(this);
-                        materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
                         materialSkinManager.ColorScheme = new ColorScheme(Primary.Red600, Primary.Red900, Primary.Red600, Accent.Red200, TextShade.WHITE);
                     });
                 }

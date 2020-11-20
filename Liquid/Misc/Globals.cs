@@ -100,6 +100,8 @@ namespace Liquid.Objects
 
     static class Globals
     {
+        
+        public static bool active = true;
         public static bool WallHackEnabled = false;
         public static bool WallHackFullEnabled = false;
         public static bool WallHackGlowOnly = false;

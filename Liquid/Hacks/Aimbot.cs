@@ -23,7 +23,7 @@ namespace Liquid.Hacks
 
         public static void TriggerThread()
         {
-            while (true)
+            while (Globals.active)
             {
                 if (!Globals.TriggerEnabled && !Globals.AimShootOnCollide)
                 {

@@ -25,13 +25,9 @@ namespace Liquid
             InitializeComponent();
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Red600, Primary.Red900, Primary.Red600, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue200, Primary.Blue300, Primary.Red600, Accent.Blue200, TextShade.WHITE);
         }
 
-        private void EntryForm_Load(object sender, EventArgs e) 
-        {
-        }
 
         private void launcherButton_Click(object sender, EventArgs e) 
         {
@@ -42,16 +38,16 @@ namespace Liquid
         {
             if ((Process.GetProcessesByName("csgo").Length > 0)) 
             {
+               
+                new MainForm().Show();
+             
+                var materialSkinManager = MaterialSkinManager.Instance;
+                materialSkinManager.AddFormToManage(this);
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Red600, Primary.Red900, Primary.Red600, Accent.Red200, TextShade.WHITE);
                 this.Visible = false;
-                if (iosSelector.Checked) 
-                {
-                    new TCPForm().Show();
-                } 
-                else 
-                {
-                    new MainForm().Show();
-                }
             }
         }
+
+
     }
 }
