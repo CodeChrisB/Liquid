@@ -22,3 +22,9 @@ D:\Git\Liquid\Liquid\obj\Debug\Liquid.csproj.GenerateResource.cache
 D:\Git\Liquid\Liquid\obj\Debug\Liquid.csproj.CoreCompileInputs.cache
 D:\Git\Liquid\Liquid\obj\Debug\AqHaxCSGO.exe
 D:\Git\Liquid\Liquid\obj\Debug\AqHaxCSGO.pdb
+D:\Git\Liquid\Liquid\bin\Debug\AqHaxCSGO.exe.config
+D:\Git\Liquid\Liquid\bin\Debug\AqHaxCSGO.exe
+D:\Git\Liquid\Liquid\bin\Debug\AqHaxCSGO.pdb
+D:\Git\Liquid\Liquid\bin\Debug\Newtonsoft.Json.xml
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.csproj.Fody.CopyLocal.cache
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.csproj.CopyComplete
