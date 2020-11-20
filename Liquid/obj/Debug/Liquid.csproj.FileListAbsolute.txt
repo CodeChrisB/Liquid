@@ -13,3 +13,12 @@ C:\Users\GB B460M Aorus Pro\Downloads\AqHax-CSGO-master\AqHax-CSGO-master\Window
 C:\Users\GB B460M Aorus Pro\Downloads\AqHax-CSGO-master\AqHax-CSGO-master\WindowsClient\AqHaxCSGO\obj\Debug\Liquid.csproj.CopyComplete
 C:\Users\GB B460M Aorus Pro\Downloads\AqHax-CSGO-master\AqHax-CSGO-master\WindowsClient\AqHaxCSGO\obj\Debug\AqHaxCSGO.exe
 C:\Users\GB B460M Aorus Pro\Downloads\AqHax-CSGO-master\AqHax-CSGO-master\WindowsClient\AqHaxCSGO\obj\Debug\AqHaxCSGO.pdb
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.csprojAssemblyReference.cache
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.EntryForm.resources
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.MainForm.resources
+D:\Git\Liquid\Liquid\obj\Debug\AqHaxCSGO.Properties.Resources.resources
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.TCPForm.resources
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.csproj.GenerateResource.cache
+D:\Git\Liquid\Liquid\obj\Debug\Liquid.csproj.CoreCompileInputs.cache
+D:\Git\Liquid\Liquid\obj\Debug\AqHaxCSGO.exe
+D:\Git\Liquid\Liquid\obj\Debug\AqHaxCSGO.pdb
