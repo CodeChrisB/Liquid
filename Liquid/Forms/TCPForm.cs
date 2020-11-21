@@ -50,7 +50,8 @@ namespace Liquid
             {
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.AddFormToManage(this);
-                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green900, Primary.Green600, Accent.Green200, TextShade.WHITE);
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue200, Primary.Blue300, Primary.Red600, Accent.Blue200, TextShade.WHITE);
+
             }
 
             this.FormClosing += new FormClosingEventHandler(AppEx);
@@ -81,7 +82,7 @@ namespace Liquid
                         this.Close();
                         var materialSkinManager = MaterialSkinManager.Instance;
                         materialSkinManager.AddFormToManage(this);
-                        materialSkinManager.ColorScheme = new ColorScheme(Primary.Red600, Primary.Red900, Primary.Red600, Accent.Red200, TextShade.WHITE);
+                        materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue200, Primary.Blue300, Primary.Red600, Accent.Blue200, TextShade.WHITE);
                     });
                 }
             }
@@ -183,10 +184,7 @@ namespace Liquid
                     string state = (formattedStr[1] == "on") ? "Enabled" : "Disabled";
                 }
 
-                if (data == "Merhabalar AQ") 
-                {
-                    SetTextOfLabel("CONNECTED", Color.Green);
-                } 
+
                 else if (data.Contains("wall,")) 
                 {
                     string[] formattedStr = data.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
@@ -385,7 +383,6 @@ namespace Liquid
         {
             if (Memory.Init()) 
             {
-                SetOfLabel("CSGO Online", Color.Green);
                 IntPtr temp = Liquid.Objects.Structs.Misc.handle;
             } 
             else 

@@ -39,11 +39,7 @@ namespace Liquid
             if ((Process.GetProcessesByName("csgo").Length > 0)) 
             {
                
-                new MainForm().Show();
-             
-                var materialSkinManager = MaterialSkinManager.Instance;
-                materialSkinManager.AddFormToManage(this);
-                materialSkinManager.ColorScheme = new ColorScheme(Primary.Red600, Primary.Red900, Primary.Red600, Accent.Red200, TextShade.WHITE);
+                new MainForm().Show();    
                 this.Visible = false;
             }
         }

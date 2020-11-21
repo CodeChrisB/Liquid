@@ -148,7 +148,7 @@ namespace Liquid
             } else {
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.AddFormToManage(this);
-                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green900, Primary.Green600, Accent.Green200, TextShade.WHITE);
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue200, Primary.Blue300, Primary.Red600, Accent.Blue200, TextShade.WHITE);
             }
             #endregion
 
@@ -506,6 +506,11 @@ namespace Liquid
         }
 
         private void CheckTeamCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("This will come in the Future");
+        }
+
+        private void legitModeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MessageBox.Show("This will come in the Future");
         }
