@@ -159,7 +159,11 @@ namespace Liquid
             timer.Interval = 90000;
             timer.Start();
             #endregion
- 
+
+
+            #region
+            activeStateCheckBox.Size = new Size(200, 200);
+            #endregion
         }
 
         private int[] GetVersion() 
@@ -201,8 +205,7 @@ namespace Liquid
                 return new int[] { 0, 0, 0 };
             }
         }
-
-        
+ 
 
         #region Events
         private void AppEx(object sender, FormClosingEventArgs e) 

@@ -123,11 +123,12 @@ namespace Liquid.Objects
         public static bool ESPDebugSkeleton = false;
 
         public static bool AimEnabled = false;
+        public static int AimChanges = 100;
         public static bool AimRecoil = false;
         public static bool AimShootOnCollide = false;
         public static bool AimSilent = false;
         public static bool AimAutoBot = false;
-        public static HitboxGroup AimPosition = HitboxGroup.ENTITY_HEAD;
+        public static HitboxGroup AimPosition = HitboxGroup.ENTITY_BODY;
 
         public static bool TriggerEnabled = false;
         public static bool TriggerPressOnlyEnabled = false;

@@ -74,10 +74,10 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.launcherButton);
             this.panel1.Controls.Add(this.initButton);
-            this.panel1.Location = new System.Drawing.Point(-18, 18);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(-18, 40);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(944, 549);
+            this.panel1.Size = new System.Drawing.Size(944, 528);
             this.panel1.TabIndex = 12;
             // 
             // label1
@@ -86,7 +86,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MV Boli", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(282, 37);
+            this.label1.Location = new System.Drawing.Point(284, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(422, 85);
@@ -98,7 +98,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AqHaxCSGO.Properties.Resources.entryLayer;
-            this.ClientSize = new System.Drawing.Size(916, 565);
+            this.ClientSize = new System.Drawing.Size(916, 557);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
