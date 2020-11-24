@@ -97,6 +97,18 @@
     <Compile Include="Forms\EntryForm.Designer.cs">
       <DependentUpon>EntryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\HackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HackForm.Designer.cs">
+      <DependentUpon>HackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubForms\AimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SubForms\AimForm.Designer.cs">
+      <DependentUpon>AimForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hacks\Aimbot.cs" />
     <Compile Include="Hacks\Features\KnifeChanger.cs" />
     <Compile Include="Hacks\Features\KnifeChangerAnimationFix.cs" />
@@ -145,8 +157,14 @@
     <EmbeddedResource Include="Forms\EntryForm.resx">
       <DependentUpon>EntryForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HackForm.resx">
+      <DependentUpon>HackForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubForms\AimForm.resx">
+      <DependentUpon>AimForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

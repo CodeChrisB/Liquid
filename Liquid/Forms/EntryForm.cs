@@ -10,22 +10,18 @@ using System.Windows.Forms;
 using System.Reflection;
 using System.Diagnostics;
 using Liquid.MemoryManagers;
-using MaterialSkin;
-using MaterialSkin.Controls;
 using System.IO;
 using Liquid.Objects;
 using System.Runtime.InteropServices;
+using AqHaxCSGO.Forms;
 
 namespace Liquid 
 {
-    public partial class EntryForm : MaterialForm 
+    public partial class EntryForm  :Form
     {
         public EntryForm() 
         {
             InitializeComponent();
-            var materialSkinManager = MaterialSkinManager.Instance;
-            materialSkinManager.AddFormToManage(this);
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue200, Primary.Blue300, Primary.Red600, Accent.Blue200, TextShade.WHITE);
         }
 
 
@@ -38,8 +34,8 @@ namespace Liquid
         {
             if ((Process.GetProcessesByName("csgo").Length > 0)) 
             {
-               
-                new MainForm().Show();    
+
+                new MainForm().Show();
                 this.Visible = false;
             }
         }
